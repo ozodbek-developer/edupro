@@ -11,28 +11,3 @@ function btnclick(){
 }
 
 
-
-VanillaTilt.init(document.querySelectorAll(".card"), {
-  max: 15,
-  speed: 400,
-  glare: true,
-  "max-glare": 0.2,
-});
-VanillaTilt.init(document.querySelector(".registration"), {
-  max: 10,
-  speed: 400,
-  glare: true,
-  "max-glare": 0.2,
-});
-VanillaTilt.init(document.querySelector(".content"), {
-  max: 15,
-  speed: 400,
-  glare: true,
-  "max-glare": 0.2,
-});
-VanillaTilt.init(document.querySelectorAll(".box"), {
-  max: 15,
-  speed: 400,
-  glare: true,
-  "max-glare": 0.2,
-});

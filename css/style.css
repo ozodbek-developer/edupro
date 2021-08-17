@@ -508,4 +508,18 @@ footer ul li a:hover{
     header .registration{
         margin-bottom: 100px;
     }
+    
+}
+@media(max-width: 500px){
+    header .content,
+    header .registration,
+    .courses-title,
+    .tech-title,
+    .mentors-title{
+        transform: scale(0.8);
+    }
+    .courses .card,
+    .box{
+        transform: scale(0.9)
+    }
 }
